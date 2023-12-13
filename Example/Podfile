@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MediaCodec_Example' do
+  pod 'MediaCodec', :path => '../'
+
+  target 'MediaCodec_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
