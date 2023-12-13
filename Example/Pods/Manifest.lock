@@ -1,0 +1,16 @@
+PODS:
+  - MediaCodec (0.1.0)
+
+DEPENDENCIES:
+  - MediaCodec (from `../`)
+
+EXTERNAL SOURCES:
+  MediaCodec:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MediaCodec: 0c579afcdd8f157a10cf01b751ffe8257f9fef42
+
+PODFILE CHECKSUM: cbd49e06d0209f3289c3fec8d6abbd6551c2039b
+
+COCOAPODS: 1.11.3

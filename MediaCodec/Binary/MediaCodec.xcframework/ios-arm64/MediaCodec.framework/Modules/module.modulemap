@@ -1,0 +1,11 @@
+framework module MediaCodec {
+  umbrella header "MediaCodec-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MediaCodec.Swift {
+  header "MediaCodec-Swift.h"
+  requires objc
+}

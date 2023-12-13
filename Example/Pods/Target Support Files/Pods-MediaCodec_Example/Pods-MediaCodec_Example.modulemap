@@ -1,0 +1,6 @@
+framework module Pods_MediaCodec_Example {
+  umbrella header "Pods-MediaCodec_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,173 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MediaCodec",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartDeviceCoreSDK",
+        "printedName": "SmartDeviceCoreSDK",
+        "declKind": "Import",
+        "moduleName": "MediaCodec"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MediaCodecAdapter",
+        "printedName": "MediaCodecAdapter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MediaCodecAdapter",
+                "printedName": "MediaCodec.MediaCodecAdapter",
+                "usr": "s:10MediaCodec0aB7AdapterC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10MediaCodec0aB7AdapterCACycfc",
+            "mangledName": "$s10MediaCodec0aB7AdapterCACycfc",
+            "moduleName": "MediaCodec",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "turnMp4Video",
+            "printedName": "turnMp4Video(inputPath:outputPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MediaCodec0aB7AdapterC12turnMp4Video9inputPath06outputH0SbSS_SStF",
+            "mangledName": "$s10MediaCodec0aB7AdapterC12turnMp4Video9inputPath06outputH0SbSS_SStF",
+            "moduleName": "MediaCodec",
+            "objc_name": "turnMp4VideoWithInputPath:outputPath:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "ts2Mp4",
+            "printedName": "ts2Mp4(inputPath:outputPath:complete:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SmartDeviceCoreSDK.TSMediaAssetExportSessionStatus, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(SmartDeviceCoreSDK.TSMediaAssetExportSessionStatus, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TSMediaAssetExportSessionStatus",
+                        "printedName": "SmartDeviceCoreSDK.TSMediaAssetExportSessionStatus",
+                        "usr": "c:@M@SmartDeviceCoreSDK@E@TSMediaAssetExportSessionStatus"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MediaCodec0aB7AdapterC6ts2Mp49inputPath06outputG08completeSbSS_SSy18SmartDeviceCoreSDK31TSMediaAssetExportSessionStatusO_SStctF",
+            "mangledName": "$s10MediaCodec0aB7AdapterC6ts2Mp49inputPath06outputG08completeSbSS_SSy18SmartDeviceCoreSDK31TSMediaAssetExportSessionStatusO_SStctF",
+            "moduleName": "MediaCodec",
+            "objc_name": "ts2Mp4WithInputPath:outputPath:complete:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10MediaCodec0aB7AdapterC",
+        "mangledName": "$s10MediaCodec0aB7AdapterC",
+        "moduleName": "MediaCodec",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MediaCodecProtocol",
+            "printedName": "MediaCodecProtocol",
+            "usr": "c:@M@SmartDeviceCoreSDK@objc(pl)MediaCodecProtocol",
+            "mangledName": "$s18SmartDeviceCoreSDK18MediaCodecProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
