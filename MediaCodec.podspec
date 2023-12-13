@@ -32,8 +32,10 @@ TODO: Add long description of the pod here.
   s.swift_version = '5.1'
 
   s.subspec 'Binary' do |binary|
-    binary.vendored_frameworks = 'SmartDeviceCoreSDK/Binary/*.xcframework'
+    binary.vendored_frameworks = 'MediaCodec/Binary/*.xcframework'
   end
+
+  s.dependency 'SmartDeviceCoreSDK'
   
   # s.resource_bundles = {
   #   'MediaCodec' => ['MediaCodec/Assets/*.png']
