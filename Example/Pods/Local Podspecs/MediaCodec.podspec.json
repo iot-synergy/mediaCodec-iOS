@@ -1,7 +1,7 @@
 {
   "name": "MediaCodec",
-  "version": "0.1.0",
-  "summary": "A short description of MediaCodec.",
+  "version": "0.1.2",
+  "summary": "binary of MediaCodec",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/huafeng/MediaCodec",
   "license": {
@@ -12,11 +12,23 @@
     "huafeng": "hm@a4x.io"
   },
   "source": {
-    "git": "https://github.com/huafeng/MediaCodec.git",
-    "tag": "0.1.0"
+    "git": "git@github.com:SmartIotDeviceSDK/mediaCodec-iOS.git",
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "MediaCodec/Classes/**/*"
+  "swift_versions": "5.1",
+  "dependencies": {
+    "SmartDeviceCoreSDK": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Binary",
+      "vendored_frameworks": "MediaCodec/Binary/*.xcframework"
+    }
+  ],
+  "swift_version": "5.1"
 }

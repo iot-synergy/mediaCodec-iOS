@@ -74,7 +74,7 @@
 		</data>
 		<key>Headers/MediaCodec-Swift.h</key>
 		<data>
-		wqqsUxQu8KWKE9ynHkH3WW8Kzd8=
+		moGVZOzfM9DvcdvnHQrgI6KXoxo=
 		</data>
 		<key>Headers/MediaCodec-umbrella.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Modules/MediaCodec.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		7aXLiB3LO8q8XpB/1PwdsHAkM6U=
+		h61KAYYWYo5PYB0tBzGSY18wFSk=
 		</data>
 		<key>Modules/MediaCodec.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -94,19 +94,19 @@
 		</data>
 		<key>Modules/MediaCodec.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kz9HbB9ZbgtlVoUU6l9u54wyoIU=
+		ZG3PwgVNzd9dNJVOTke6zJN6qOc=
 		</data>
 		<key>Modules/MediaCodec.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		DPfANbXFMnFTBRY/RE1gCPpDb8Y=
+		QRxOTAjoHIeN2QOKb8e+Q1E7E5c=
 		</data>
 		<key>Modules/MediaCodec.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kz9HbB9ZbgtlVoUU6l9u54wyoIU=
+		ZG3PwgVNzd9dNJVOTke6zJN6qOc=
 		</data>
 		<key>Modules/MediaCodec.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bteC8sZZL++DjZvvFOmkGhyPMfM=
+		IgU7TwWYrhxK0vGL58VtBmv3psI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -662,7 +662,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bd7SuKoJ0EoSdoijRRggwyRbairRRWYzJdOkkdCBghA=
+			/gv4GnnsRdZOvXMMOYpp10SLbsMzWu3B4OrQlya/t4I=
 			</data>
 		</dict>
 		<key>Headers/MediaCodec-umbrella.h</key>
@@ -676,7 +676,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7XAsfi0UlGjpICLu9mRrKtw1mAefQr9kzeOM080Wp3Q=
+			ylJYGcy8kAmdUdiDsHH8ruVIgJ31bbNVsiRLunRcpyE=
 			</data>
 		</dict>
 		<key>Modules/MediaCodec.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -690,28 +690,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6HhlljwnNLe2pvqWlO54qxlszg6oFCXhwInGhdCKqpY=
+			64YYVVJvjkpeolJqe+YQB40Nis4WlGVSvynJ15RPq6k=
 			</data>
 		</dict>
 		<key>Modules/MediaCodec.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XdWW/ZcVFMBayEKYOwe/7dfMeZC4fwyayvBFaiige1Y=
+			54LC9UqP6hG6WIYKXok4DMxo2VE+zhnkK5svqPJ/mtw=
 			</data>
 		</dict>
 		<key>Modules/MediaCodec.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6HhlljwnNLe2pvqWlO54qxlszg6oFCXhwInGhdCKqpY=
+			64YYVVJvjkpeolJqe+YQB40Nis4WlGVSvynJ15RPq6k=
 			</data>
 		</dict>
 		<key>Modules/MediaCodec.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AMaWLqhN73+7IZXo1GYEX1GLdJSWeRmRmSoU4b8H8EQ=
+			9Vx53o2jD9ZWEqQkO5MrQgKZ86vxkbW2OoCzBlHbn/E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
