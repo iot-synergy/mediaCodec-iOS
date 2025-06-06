@@ -25,6 +25,8 @@
 #import "IJKFFMonitor.h"
 #import "IJKFFOptions.h"
 #import "IJKSDLGLViewProtocol.h"
+#import "IJKABTest.h"
+#import "IJKTracker.h"
 
 // media meta
 #define k_IJKM_KEY_FORMAT         @"format"
@@ -75,10 +77,9 @@ typedef enum IJKLogLevel {
 @interface IJKFFMoviePlayerController : NSObject <IJKMediaPlayback>
 
 - (id)initWithContentURL:(NSURL *)aUrl
-             withOptions:(IJKFFOptions *)options;
-
-- (id)initWithOptions:(IJKFFOptions *)options;
-
+             withOptions:(IJKFFOptions *)options
+                 tracker:(id<IJKTrackerProtocol>)tracker
+                  abTest:(id<IJKABTestProtocol>)abTest;
 
 - (id)initWithContentURLString:(NSString *)aUrlString
                    withOptions:(IJKFFOptions *)options;
@@ -90,8 +91,6 @@ typedef enum IJKLogLevel {
 - (id)initWithMoreContentString:(NSString *)aUrlString
                  withOptions:(IJKFFOptions *)options
                   withGLView:(UIView<IJKSDLGLViewProtocol> *)glView;
-
-- (void)setDataSource:(NSString *)videoUrl;
 
 - (void)prepareToPlay;
 - (void)play;
@@ -128,7 +127,7 @@ typedef enum IJKLogLevel {
                    forKey:(NSString *)key
                ofCategory:(IJKFFOptionCategory)category;
 
-
+- (void)setConfiguration:(int64_t)configuration;
 
 - (void)setFormatOptionValue:       (NSString *)value forKey:(NSString *)key;
 - (void)setCodecOptionValue:        (NSString *)value forKey:(NSString *)key;

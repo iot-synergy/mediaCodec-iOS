@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "MediaCodec",
+    "printedName": "MediaCodec",
     "children": [
       {
         "kind": "Import",
@@ -75,6 +75,7 @@
             "usr": "s:10MediaCodec0aB7AdapterC12turnMp4Video9inputPath06outputH0SbSS_SStF",
             "mangledName": "$s10MediaCodec0aB7AdapterC12turnMp4Video9inputPath06outputH0SbSS_SStF",
             "moduleName": "MediaCodec",
+            "isOpen": true,
             "objc_name": "turnMp4VideoWithInputPath:outputPath:",
             "declAttributes": [
               "ObjC",
@@ -141,6 +142,7 @@
             "usr": "s:10MediaCodec0aB7AdapterC6ts2Mp49inputPath06outputG08completeSbSS_SSy18SmartDeviceCoreSDK31TSMediaAssetExportSessionStatusO_SStctF",
             "mangledName": "$s10MediaCodec0aB7AdapterC6ts2Mp49inputPath06outputG08completeSbSS_SSy18SmartDeviceCoreSDK31TSMediaAssetExportSessionStatusO_SStctF",
             "moduleName": "MediaCodec",
+            "isOpen": true,
             "objc_name": "ts2Mp4WithInputPath:outputPath:complete:",
             "declAttributes": [
               "ObjC",
@@ -153,10 +155,25 @@
         "usr": "s:10MediaCodec0aB7AdapterC",
         "mangledName": "$s10MediaCodec0aB7AdapterC",
         "moduleName": "MediaCodec",
+        "isOpen": true,
         "declAttributes": [
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "MediaCodecProtocol",

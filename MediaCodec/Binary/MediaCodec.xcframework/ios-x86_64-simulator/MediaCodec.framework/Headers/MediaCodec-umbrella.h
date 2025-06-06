@@ -21,6 +21,8 @@
 #import "IJKKVOController.h"
 #import "IJKSDLGLViewProtocol.h"
 #import "IJKFFMonitor.h"
+#import "IJKABTest.h"
+#import "IJKTracker.h"
 #import "ADMediaAssetExportSession.h"
 #import "KMMedia.h"
 #import "KMMediaAsset.h"

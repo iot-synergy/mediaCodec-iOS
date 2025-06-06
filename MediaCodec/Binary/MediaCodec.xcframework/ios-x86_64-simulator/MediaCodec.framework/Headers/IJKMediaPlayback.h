@@ -131,7 +131,6 @@ IJK_EXTERN NSString* const IJKMPMoviePlayerScalingModeDidChangeNotification;
 // Posted when movie playback ends or a user exits playback.
 IJK_EXTERN NSString* const IJKMPMoviePlayerPlaybackDidFinishNotification;
 IJK_EXTERN NSString* const IJKMPMoviePlayerPlaybackDidFinishReasonUserInfoKey; // NSNumber (IJKMPMovieFinishReason)
-IJK_EXTERN NSString* const IJKMPMoviePlayerPostEventNotification;
 
 // Posted when the playback state changes, either programatically or by the user.
 IJK_EXTERN NSString* const IJKMPMoviePlayerPlaybackStateDidChangeNotification;
